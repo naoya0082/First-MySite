@@ -1,0 +1,368 @@
+h1 {
+  margin: 0;
+}
+
+h2 {
+  background-color: #ebebeb;
+  padding: 10px 0;
+}
+
+#container {
+    margin: auto;
+    height: auto;
+    float: none;
+    width: 70%;
+    /* background-color: #f0ffff; */
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-width: 1px;
+    /* background-color: cadetblue; */
+}
+
+header .menu ul {
+  margin-right: 150px;
+}
+
+header .menu li {
+    font-size: 18px;
+    float:right;
+    margin: 0px 30px 0 0;
+    list-style: none;
+}
+
+.menu-list {
+  color: #0044cc;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+header .menu a:hover {
+  color: #800080;
+  text-decoration: underline;
+}
+
+.logo-area img {
+    width: 55%;
+    margin-bottom: 0px;
+}
+
+.profile-box {
+    margin-top: 50px;
+    height: auto;
+}
+
+.profile-box #MyFace {
+    width: 500px;
+    float: left;
+    margin: 0px 50px 0 0;
+    transition: all 0.5s;
+    box-shadow: 8px 8px 10px gray;
+    border-radius: 15px;
+}
+
+.profile-box #MyFace:hover {
+    opacity: 0.5;
+}
+
+.profile-box .Freelance {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.profile-box .Name {
+  font-size: 20px;
+}
+
+.profile-box .twitter-btn {
+  display: inline-block;
+  color: white;
+  background-color: #55acee;
+  padding: 8px 15px;
+  border-radius: 4px;
+  box-shadow: 0px 5px 3px #3b5998;
+
+}
+
+.profile-box .twitter-btn:hover {
+  font-size: 17.5px;
+  opacity: 0.7;
+}
+
+.profile-box .twitter-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.profile-box .instagram-btn {
+  display: inline-block;
+  color: white;
+  background-color: #CF2E92;
+  padding: 8px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 5px 3px #880088;
+
+}
+
+.profile-box .instagram-btn:hover {
+  font-size: 17.5px;
+  opacity: 0.7;
+}
+
+.profile-box .instagram-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.profile-box .blog-btn {
+  display: inline-block;
+  color: white;
+  background-color: #5dca88;
+  padding: 8px 25px;
+  border-radius: 4px;
+  box-shadow: 0px 5px 3px #1a7940;
+  margin-left: 10px;
+
+}
+
+.profile-box .blog-btn:hover {
+  font-size: 17.5px;
+  opacity: 0.7;
+}
+
+.profile-box .blog-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.service-txt {
+    font-size: 30px;
+    text-align: center;
+}
+
+.service-box {
+    height: auto;
+    margin-top: 50px;
+}
+
+.service-box .Writing-area {
+    width: 320px;
+    margin: 0px 25px 0 0;
+    float: left;
+    background: url("images/Writing-hover02.jpg") no-repeat;
+}
+
+.service-box .Writing-area img:hover {
+    width: 320px;
+    visibility: hidden;
+}
+
+.service-box .Direction-area {
+  width: 320px;
+  margin: 0px 20px 0 0;
+  float: left;
+  background: url("images/Direction-hover.jpg") no-repeat;
+}
+
+.service-box .Direction-area img:hover {
+    width: 320px;
+    visibility: hidden;
+}
+
+.service-box .Web-area {
+  width: 320px;
+  float: right;
+  background: url("images/Web-hover.jpg") no-repeat;
+}
+
+.service-box .Web-area img:hover {
+  width: 320px;
+  visibility: hidden;
+}
+
+.shadow {
+  box-shadow: 6px 6px 5px gray;
+}
+
+.clear {
+    clear: both;
+}
+
+.portfolio-txt {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ----------------------- */
+
+.portfolio-box {
+    height: auto;
+    margin-top: 50px;
+}
+
+.Blog-area {
+  width: 320px;
+  margin: 0px 20px 0 0;
+  float: left;
+  background: url("images/Rutsubo-blog-hover.jpg") no-repeat;
+}
+
+.portfolio-box .Blog-area img:hover {
+    width: 320px;
+    visibility: hidden;
+}
+
+.Note-area {
+  width: 320px;
+  margin: 0px 20px 0 0;
+  float: left;
+  background: url("images/Note-hover.jpg") no-repeat;
+}
+
+.portfolio-box .Note-area img:hover {
+    width: 320px;
+    visibility: hidden;
+}
+
+.WebCreate-area {
+  width: 320px;
+  float: right;
+  background: url("images/WebCreate-hover.jpg") no-repeat;
+}
+
+.portfolio-box .WebCreate-area img:hover {
+    width: 320px;
+    visibility: hidden;
+}
+
+.clear {
+    clear: left;
+}
+
+.portfolio-txt {
+    font-size: 30px;
+    text-align: center;
+}
+
+.blog-box {
+    height: auto;
+    /* background-color: khaki; */
+    margin-top: 50px;
+}
+
+.blog-txt {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Rutsubo-area {
+  float: left;
+  margin-left: 30px;
+  width: 45%;
+  height: auto;
+  /* background-color: blue; */
+}
+
+.Rutsubo-area img {
+  /* float: left; */
+  margin-left: 25px;
+  margin-bottom: 20px;
+  height: 400px;
+  transition: all 0.5s;
+}
+
+.Rutsubo-area img:hover {
+  opacity: 0.7;
+}
+
+.Sumabake-area {
+  /* background-color: blue; */
+  margin-left: 525px;
+}
+
+.Sumabake-area img {
+  margin: 0px 30px 20px 30px;
+  height: 400px;
+  transition: all 0.5s;
+}
+
+.Sumabake-area img:hover {
+  opacity: 0.7;
+}
+
+.Contact-form {
+  margin: 0;
+  text-align: center;
+  height: auto;
+  background-color: #F5F5F5;
+}
+
+.Contact-box {
+  height: auto;
+  background-color: inherit;
+}
+
+.Contact-box h2 {
+  text-align: center;
+  background-color: #ebebeb;
+}
+
+.form-name {
+  padding-top: 30px;
+}
+
+.form-mail {
+  padding-top: 30px;
+}
+
+.form-contents {
+  padding: 30px;
+}
+
+.post-btn {
+  display: inline-block;
+  color: #0044cc;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
+
+.post-btn:hover {
+  color: #800080;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    bottom: 0px;
+}
+
+footer p {
+  padding: 12.5px;
+  color: white;
+  text-align: center;
+}
+
+/* ----------------------------- */
+
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
